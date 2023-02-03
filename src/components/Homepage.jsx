@@ -1,9 +1,23 @@
-import React from 'react'
+import React,{useState } from 'react'
 import Logo from "../../images/Logo.svg"
 import Triangle from "../../images/bg-triangle.svg"
+import Paper from "../../images/icon-paper.svg"
+import Scissors from "../../images/icon-scissors.svg"
+import Rock from "../../images/icon-rock.svg"
+import Rules from "../../images/image-rules.svg"
+import Close from "../../images/icon-close.svg"
+
 
 
 const Homepage = () => {
+
+    // const [preview,setPreview] = useState("True");
+
+    // const previewModal =() => {
+    //     setPreview(!preview);
+    // }
+
+
   return (
     <div className='w-full min-h-screen flex flex-row justify-center items-center'>
         <div className='grid grid-cols-[700px_301px] w-[1001px] h-[688px]'>
@@ -22,11 +36,12 @@ const Homepage = () => {
                 <div className=' flex flex-row justify-center'>
                     <div className=' w-[470px] gap-[5rem] h-[430px] grid grid-rows-2'>
                         <div className='flex flex-row children:rounded-full'>
-                            <div className='h-[252px] w-[248px] hover:visible flex flex-row items-center justify-center hover:bg-white  hover:bg-blend-darken'>
+                            <div className='h-[252px] w-[248px] hover:visible flex flex-row items-center justify-center hover:bg-white   hover:bg-blend-darken'>
                                 <div className='flex flex-row h-[203px] hover:visible w-[198px] justify-center items-center bg-[#2A45C2] rounded-full'>
                                     <div className='flex flex-row justify-center items-center h-[194px] w-[198px] self-start bg-[#4664F4] rounded-full'> 
                                         <div className='flex flex-row  w-[152px] rounded-full h-[152px] bg-[#BABFD4]'>
-                                            <div className='h-[144px] w-[152px] bg-gradient-to-b from-[#F3F3F3]  to-[#DADADA] opacity-[98%] self-end rounded-full'>
+                                            <div className='flex flex-row justify-center items-center h-[144px] w-[152px] bg-gradient-to-b from-[#F3F3F3]  to-[#DADADA] opacity-[98%] self-end rounded-full'>
+                                                <img src={Paper} className='w-[67.21px] h-[80px] origin-center rotate-[-4deg] self-center' alt=''/>
                                             </div> 
                                         </div>
                                     </div>
@@ -37,7 +52,9 @@ const Homepage = () => {
                                 <div className='flex hover:visible flex-row justify-center items-center h-[203px] w-[198px] bg-[#C76C1B] rounded-full'>
                                     <div className='flex flex-row justify-center items-center bg-[#EB9F0E] h-[194px] w-[198px] rounded-full self-start'>
                                         <div className='flex flex-row  w-[152px] rounded-full h-[152px] bg-[#BABFD4]'>
-                                            <div className='h-[144px] w-[152px] bg-gradient-to-b from-[#F3F3F3]  to-[#DADADA] opacity-[98%] self-end rounded-full'></div> 
+                                            <div className='flex flex-row justify-center items-center h-[144px] w-[152px] bg-gradient-to-b from-[#F3F3F3]  to-[#DADADA] opacity-[98%] self-end rounded-full'>
+                                                <img src={Scissors} className='w-[67.21px] h-[80px] origin-center rotate-[-4deg] self-center' alt=''/>    
+                                            </div> 
                                         </div>
                                     </div>
                                 </div>
@@ -48,7 +65,9 @@ const Homepage = () => {
                                 <div className='hover:visible flex flex-row justify-center items-center h-[203px] w-[198px] bg-[#9D1634] rounded-full'>
                                     <div className='h-[194px] w-[198px] rounded-full bg-[#DB2E4D] flex flex-row justify-center items-center self-start shadow-[0_3px_3px_rgba(0, 0, 0, 0.196706)]'>
                                         <div className='flex flex-row  w-[152px] rounded-full h-[152px] bg-[#BABFD4]'>
-                                        <div className='h-[144px] w-[152px] bg-gradient-to-b from-[#F3F3F3]  to-[#DADADA] opacity-[98%] self-end rounded-full'></div> 
+                                            <div className=' flex flex-row justify-center items-center h-[144px] w-[152px] bg-gradient-to-b from-[#F3F3F3]  to-[#DADADA] opacity-[98%] self-end rounded-full'>
+                                                <img src={Rock} className='w-[67.21px] h-[80px] origin-center rotate-[-4deg] self-center' alt=''/>    
+                                            </div> 
                                         </div>
                                     </div>
                                 </div>
@@ -60,10 +79,18 @@ const Homepage = () => {
             </div>
 
             <div className='flex flex-row justify-end items-end '>
-                <div></div>
-                <button className='text-white hover:text-[#3B4262] hover:bg-gradient-to-b from-[#F3F3F3]  to-[#fff] opacity-100 border-[#fff] border-[1px] border-solid rounded-[8px] h-[40px] w-[128px] self-end '>
+                <button  className='text-white hover:text-[#3B4262] hover:bg-gradient-to-b from-[#F3F3F3]  to-[#fff] opacity-100 border-[#fff] border-[1px] border-solid rounded-[8px] h-[40px] w-[128px] self-end '>
                     <h3 className=' font-[16px] leading-[19px] tracking-[2.5px] font-barlow '>RULES</h3>
                 </button>
+                {/* <div className='' style={{display: preview ? 'block' : 'none'}} >
+                        <div className='modal-inner'>
+                            <span style={{color: '#fff'}}  onClick={() => setPreview(!preview)}>
+                                <img src={Close} alt=""/>
+                            </span>
+                            <img src={Rule} alt="" />
+                        </div>
+                </div> */}
+                
             </div>
         </div>
         
