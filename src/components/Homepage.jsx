@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from "../../images/Logo.svg"
+import Triangle from "../../images/bg-triangle.svg"
 
 
 const Homepage = () => {
@@ -18,8 +19,15 @@ const Homepage = () => {
                         </div>
                     </div>
                 </div>
-                <div>
-                    {/* <h3>RULES</h3> */}
+                <div className=' flex flex-row justify-center'>
+                    <div className=' w-[470px] h-[430px] grid grid-rows-2 children:border-solid children:border-[#333] children:border-[4px]'>
+                        <div className=''>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div></div>
+                        <img src={Triangle} alt="" className='absolute  z-[-1]'/>
+                    </div>
                 </div>
             </div>
 
