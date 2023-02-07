@@ -37,7 +37,7 @@ const Homepage = () => {
                     <div className=' w-[470px] gap-[5rem] h-[430px] grid grid-rows-2'>
                         <div className='flex flex-row children:rounded-full'>
                             <div className='h-[252px] w-[248px] hover:visible flex flex-row items-center justify-center hover:bg-white   hover:bg-blend-darken'>
-                                <div className='flex flex-row h-[203px] hover:visible w-[198px] justify-center items-center bg-[#2A45C2] rounded-full'>
+                                <button className='flex flex-row h-[203px] hover:visible w-[198px] justify-center items-center bg-[#2A45C2] rounded-full'>
                                     <div className='flex flex-row justify-center items-center h-[194px] w-[198px] self-start bg-[#4664F4] rounded-full'> 
                                         <div className='flex flex-row  w-[152px] rounded-full h-[152px] bg-[#BABFD4]'>
                                             <div className='flex flex-row justify-center items-center h-[144px] w-[152px] bg-gradient-to-b from-[#F3F3F3]  to-[#DADADA] opacity-[98%] self-end rounded-full'>
@@ -45,11 +45,11 @@ const Homepage = () => {
                                             </div> 
                                         </div>
                                     </div>
-                                </div>
+                                </button>
                             </div>
                             
                             <div className='h-[252px] w-[248px] hover:visible flex flex-row items-center justify-center hover:bg-white bg-blend-normal'>
-                                <div className='flex hover:visible flex-row justify-center items-center h-[203px] w-[198px] bg-[#C76C1B] rounded-full'>
+                                <button className='flex hover:visible flex-row justify-center items-center h-[203px] w-[198px] bg-[#C76C1B] rounded-full'>
                                     <div className='flex flex-row justify-center items-center bg-[#EB9F0E] h-[194px] w-[198px] rounded-full self-start'>
                                         <div className='flex flex-row  w-[152px] rounded-full h-[152px] bg-[#BABFD4]'>
                                             <div className='flex flex-row justify-center items-center h-[144px] w-[152px] bg-gradient-to-b from-[#F3F3F3]  to-[#DADADA] opacity-[98%] self-end rounded-full'>
@@ -57,12 +57,12 @@ const Homepage = () => {
                                             </div> 
                                         </div>
                                     </div>
-                                </div>
+                                </button>
                             </div>
                         </div>
                         <div className='flex flex-row justify-center items-center '>
                             <div className='h-[252px] w-[248px] hover:visible flex flex-row items-center justify-center hover:bg-white bg-blend-normal rounded-full '> 
-                                <div className='hover:visible flex flex-row justify-center items-center h-[203px] w-[198px] bg-[#9D1634] rounded-full'>
+                                <button className='hover:visible flex flex-row justify-center items-center h-[203px] w-[198px] bg-[#9D1634] rounded-full'>
                                     <div className='h-[194px] w-[198px] rounded-full bg-[#DB2E4D] flex flex-row justify-center items-center self-start shadow-[0_3px_3px_rgba(0, 0, 0, 0.196706)]'>
                                         <div className='flex flex-row  w-[152px] rounded-full h-[152px] bg-[#BABFD4]'>
                                             <div className=' flex flex-row justify-center items-center h-[144px] w-[152px] bg-gradient-to-b from-[#F3F3F3]  to-[#DADADA] opacity-[98%] self-end rounded-full'>
@@ -70,7 +70,7 @@ const Homepage = () => {
                                             </div> 
                                         </div>
                                     </div>
-                                </div>
+                                </button>
                             </div>
                         </div>
                         <img src={Triangle} alt="" className='absolute self-center ml-[6.8rem] h-[287px] w-[254px] z-[-1]'/>
