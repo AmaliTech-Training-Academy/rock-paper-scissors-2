@@ -19,10 +19,10 @@ const Homepage = () => {
 
 
   return (
-    <div className='w-full min-h-screen flex flex-row justify-center items-center'>
+    <main className='w-full min-h-screen flex flex-row justify-center items-center'>
         <div className='grid grid-cols-[700px_301px] w-[1001px] h-[688px]'>
             <div className='grid grid-rows-[150px_465px] gap-y-[2rem]'>
-                <div className='flex flex-row items-center'>
+                <header className='flex flex-row items-center'>
                     <div className=' border-[#fff] border-[3px] border-solid rounded-[15px] flex flex-row  justify-between  w-[170px] basis-full h-[150px] px-[24px] py-[18px]'>
                         <img src={Logo} alt=""/>
                         <div className='h-[114px] rounded-[8px] bg-[#f3f3f3] basis-3/12 flex flex-col justify-center items-center text-center'>
@@ -32,12 +32,12 @@ const Homepage = () => {
                             <h1 className='font-barlowbold text-[#565468] text-[64px] leading-[64px] h-[64px] w-[53px] font-bold text-center'>12</h1>
                         </div>
                     </div>
-                </div>
+                </header>
                 <div className=' flex flex-row justify-center'>
                     <div className=' w-[470px] gap-[5rem] h-[430px] grid grid-rows-2'>
                         <div className='flex flex-row children:rounded-full'>
-                            <div className='h-[252px] w-[248px] hover:visible flex flex-row items-center justify-center hover:bg-white   hover:bg-blend-darken'>
-                                <button className='flex flex-row h-[203px] hover:visible w-[198px] justify-center items-center bg-[#2A45C2] rounded-full'>
+                            <div className='h-[252px] w-[248px] hover:visible flex flex-row items-center justify-center'>
+                                <button className='flex flex-row h-[203px] hover:visible w-[198px] justify-center items-center bg-[#2A45C2] hover:translate-y-2 hover:duration-300 rounded-full'>
                                     <div className='flex flex-row justify-center items-center h-[194px] w-[198px] self-start bg-[#4664F4] rounded-full'> 
                                         <div className='flex flex-row  w-[152px] rounded-full h-[152px] bg-[#BABFD4]'>
                                             <div className='flex flex-row justify-center items-center h-[144px] w-[152px] bg-gradient-to-b from-[#F3F3F3]  to-[#DADADA] opacity-[98%] self-end rounded-full'>
@@ -48,8 +48,8 @@ const Homepage = () => {
                                 </button>
                             </div>
                             
-                            <div className='h-[252px] w-[248px] hover:visible flex flex-row items-center justify-center hover:bg-white bg-blend-normal'>
-                                <button className='flex hover:visible flex-row justify-center items-center h-[203px] w-[198px] bg-[#C76C1B] rounded-full'>
+                            <div className='h-[252px] w-[248px] hover:visible flex flex-row items-center justify-center bg-white rounded-full'>
+                                <button className='flex hover:visible flex-row justify-center items-center h-[203px] w-[198px] bg-[#C76C1B] hover:translate-y-2 hover:duration-300 rounded-full'>
                                     <div className='flex flex-row justify-center items-center bg-[#EB9F0E] h-[194px] w-[198px] rounded-full self-start'>
                                         <div className='flex flex-row  w-[152px] rounded-full h-[152px] bg-[#BABFD4]'>
                                             <div className='flex flex-row justify-center items-center h-[144px] w-[152px] bg-gradient-to-b from-[#F3F3F3]  to-[#DADADA] opacity-[98%] self-end rounded-full'>
@@ -61,8 +61,8 @@ const Homepage = () => {
                             </div>
                         </div>
                         <div className='flex flex-row justify-center items-center '>
-                            <div className='h-[252px] w-[248px] hover:visible flex flex-row items-center justify-center hover:bg-white bg-blend-normal rounded-full '> 
-                                <button className='hover:visible flex flex-row justify-center items-center h-[203px] w-[198px] bg-[#9D1634] rounded-full'>
+                            <div className='h-[252px] w-[248px] hover:visible flex flex-row items-center justify-center'> 
+                                <button className='hover:visible flex flex-row justify-center items-center h-[203px] w-[198px] bg-[#9D1634] hover:translate-y-2 hover:duration-300 rounded-full'>
                                     <div className='h-[194px] w-[198px] rounded-full bg-[#DB2E4D] flex flex-row justify-center items-center self-start shadow-[0_3px_3px_rgba(0, 0, 0, 0.196706)]'>
                                         <div className='flex flex-row  w-[152px] rounded-full h-[152px] bg-[#BABFD4]'>
                                             <div className=' flex flex-row justify-center items-center h-[144px] w-[152px] bg-gradient-to-b from-[#F3F3F3]  to-[#DADADA] opacity-[98%] self-end rounded-full'>
@@ -94,7 +94,7 @@ const Homepage = () => {
             </div>
         </div>
         
-    </div>
+    </main>
   )
 }
 
