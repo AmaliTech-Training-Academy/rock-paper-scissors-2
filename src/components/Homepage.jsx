@@ -20,10 +20,10 @@ const Homepage = () => {
 
   return (
     <main className='w-full min-h-screen flex flex-row justify-center items-center'>
-        <div className='grid grid-cols-[700px_301px] w-[1001px] h-[688px]'>
+        <div className='grid grid-cols-[700px_301px] w-[1001px] h-[688px] '>
             <div className='grid grid-rows-[150px_465px] gap-y-[2rem]'>
-                <header className='flex flex-row items-center'>
-                    <div className=' border-[#fff] border-[3px] border-solid rounded-[15px] flex flex-row  justify-between  w-[170px] basis-full h-[150px] px-[24px] py-[18px]'>
+                <header className=' flex flex-row items-center'>
+                    <div className=' sm:hidden border-[#fff] border-[3px] border-solid rounded-[15px] flex flex-row  justify-between  w-[170px] basis-full h-[150px] px-[24px] py-[18px]'>
                         <img src={Logo} alt=""/>
                         <div className='h-[114px] rounded-[8px] bg-[#f3f3f3] basis-3/12 flex flex-col justify-center items-center text-center'>
                             <h5 className='font-barlow text-[#2A45C2] text-[16px] leading-[19.2px] tracking-[2.5px]'>
@@ -33,8 +33,8 @@ const Homepage = () => {
                         </div>
                     </div>
                 </header>
-                <div className=' flex flex-row justify-center'>
-                    <div className=' w-[470px] gap-[5rem] h-[430px] grid grid-rows-2'>
+                <body className=' flex flex-row justify-center'>
+                    <div className='sm:hidden w-[470px] gap-[5rem] h-[430px] grid grid-rows-2'>
                         <div className='flex flex-row children:rounded-full'>
                             <div className='h-[252px] w-[248px] hover:visible flex flex-row items-center justify-center'>
                                 <button className='flex flex-row h-[203px] hover:visible w-[198px] justify-center items-center bg-[#2A45C2] hover:translate-y-2 hover:duration-300 rounded-full'>
@@ -75,10 +75,10 @@ const Homepage = () => {
                         </div>
                         <img src={Triangle} alt="" className='absolute self-center ml-[6.8rem] h-[287px] w-[254px] z-[-1]'/>
                     </div>
-                </div>
+                </body>
             </div>
 
-            <div className='flex flex-row justify-end items-end '>
+            <footer className='flex flex-row justify-end items-end '>
                 <button  className='text-white hover:text-[#3B4262] hover:bg-gradient-to-b from-[#F3F3F3]  to-[#fff] opacity-100 border-[#fff] border-[1px] border-solid rounded-[8px] h-[40px] w-[128px] self-end '>
                     <h3 className=' font-[16px] leading-[19px] tracking-[2.5px] font-barlow '>RULES</h3>
                 </button>
@@ -91,7 +91,7 @@ const Homepage = () => {
                         </div>
                 </div> */}
                 
-            </div>
+            </footer>
         </div>
         
     </main>
