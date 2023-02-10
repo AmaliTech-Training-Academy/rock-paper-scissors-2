@@ -3,10 +3,13 @@ import Homepage from './components/Homepage'
 
 const App = () => {
   return (
-    <div className='box-border m-0 p-0 w-full min-h-screen flex flex-row justify-center items-center sm:w-full sm:h-screen'>
+    <div className='box-border m-0 p-0'>
       <Homepage/>
     </div>
   )
 }
 
 export default App
+
+// #DB2E4D
+// #C76C1B
