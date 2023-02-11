@@ -3,7 +3,7 @@ import Logo from "../../images/logo.svg"
 
 const Header = () => {
   return (
-    <div className=' mobile:h-[6rem] mobile:border-white mobile:border-[0.1875rem] mobile:border-solid  mobile:flex mobile:flex-row mobile:justify-between mobile:items-center'>
+    <div className='laptop:flex laptop:flex-row laptop:justify-between laptop:w-[43.75rem] mobile:h-[6rem] mobile:border-[rgba(255, 255, 255, 0.289199)] mobile:border-[0.1875rem] rounded-[0.9375rem] mobile:border-solid  mobile:flex mobile:flex-row mobile:justify-between mobile:items-center'>
         <div className=' mobile:ml-[2rem] mobile:w-[5.1875rem]'>
             <img src={Logo} alt=""/>
         </div>

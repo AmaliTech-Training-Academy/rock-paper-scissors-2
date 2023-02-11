@@ -13,7 +13,7 @@ import Footer from './Footer'
 
 const Homepage = () => {
   return (
-    <main className='w-full min-h-screen laptop:pl-[20.8125rem] laptop:pr-[2rem] pt-[3rem] pb-[2rem] mobile:pb-[4rem] mobile:px-[2rem] bg-[#2A45C2] children:grid children:grid-rows-3 children:border-solid children:border-[#DB2E4D] children:border-[0.1875rem] mobile:grid mobile:grid-rows-[12.5625rem_17.58375rem_11.22875rem] '>
+    <main className='w-full min-h-screen  laptop:pl-[20.8125rem] laptop:pr-[2rem] pt-[3rem] pb-[2rem] mobile:pb-[4rem] mobile:px-[2rem] bg-[#2A45C2] children:grid children:grid-rows-3 mobile:grid mobile:grid-rows-[12.5625rem_17.58375rem_11.22875rem] '>
         <Header/>
         <Content/>
         <Footer/>
