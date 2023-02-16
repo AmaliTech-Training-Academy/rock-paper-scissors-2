@@ -23,12 +23,19 @@ module.exports = {
     }
   },
   plugins: [
-    plugin(function({addVariant}){
-      addVariant("children", "&>*")
+    plugin(function({addVariant,addUtilities}){
+      addVariant("children", "&>*"),
+      addUtilities({
+        'bg-radial-gradient':{
+          'rd-gradient': 'radial-gradient(134.34% 134.34% at 50% 0%, #1F3757 0%, #131537 100%)',
+        }
+      })
     })
   ]
 }
 
-// plugin(function({addVariant}){
-//   addVariant("children", "&>*")
-// })
+// @layer utilities {
+//   .content-auto {
+//     content-visibility: auto;
+//   }
+// }

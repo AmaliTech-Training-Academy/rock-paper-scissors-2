@@ -11,7 +11,7 @@ const Content = () => {
 
 
   return (
-    <div  className='laptop:mx-[7rem] laptop:grid laptop:grid-rows-2 laptop:gap-x-[5rem] laptop:gap-y-[1.3rem]  laptop:children:w-[12.375rem] laptop:children:h-[12.6875rem] laptop:h-[26.875rem] laptop:w-[29.75rem] mobile:gap-x-[5.5rem] mobile:gap-y-[9rem]  mobile:children:w-[8.125rem] mobile:children:h-[8.3125rem]'>
+    <div  className=' laptop:mx-[7rem] laptop:grid laptop:grid-rows-2 laptop:gap-x-[5rem] laptop:gap-y-[1.3rem]  laptop:children:w-[12.375rem] laptop:children:h-[12.6875rem] laptop:h-[26.875rem] laptop:w-[29.75rem] mobile:gap-x-[5.5rem] mobile:gap-y-[9rem]  mobile:children:w-[8.125rem] mobile:children:h-[8.3125rem]'>
       <button className=' flex flex-row items-start rounded-full z-[1] bg-[#2A45C2] hover:translate-y-2 hover:duration-300 '>
         <div className=' laptop:w-[12.375rem] laptop:h-[12.125rem] flex flex-row items-center justify-center rounded-full mobile:w-[8.085625rem] mobile:h-[7.92375rem] bg-[#4664F4]'>
           <div className=' laptop:w-[9.5rem] laptop:h-[9.5rem] flex flex-row self-center mobile:w-[6.206875rem] rounded-full mobile:h-[6.208125rem]  bg-[#BABFD4]'>

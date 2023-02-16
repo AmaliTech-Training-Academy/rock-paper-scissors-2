@@ -1,10 +1,11 @@
 import React,{useState } from 'react'
 
-import Rules from "../../images/image-rules.svg"
-import Close from "../../images/icon-close.svg"
+// import Rules from "../../images/image-rules.svg"
+// import Close from "../../images/icon-close.svg"
 import Header from './Header'
 import Content from './Content'
 import Footer from './Footer'
+import Modal from './Modal'
 
 
 const Homepage = () => {
@@ -13,6 +14,7 @@ const Homepage = () => {
         <Header/>
         <Content/>
         <Footer/>
+        {/* <Modal/> */}
     </main>
   )
 }
