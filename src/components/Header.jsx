@@ -10,7 +10,7 @@ const Header = () => {
         <div className='mobile:w-[5rem] laptop:self-center laptop:pr-[1rem] laptop:basis-[30%] mobile:mr-[0.75rem] '>
             <div className=' laptop:h-[7.125rem]  mobile:h-[4.5rem] rounded-[0.5rem] bg-[#f3f3f3] flex flex-col  justify-center items-center text-center'>
                 <h5 className='font-barlow text-[0.625rem] leading-[0.75rem] tracking-[0.0975rem] font-semibold text-[#2A45C2] '>SCORE</h5>
-                <h1 className='font-barlow laptop:text-[4rem] laptop:leading-[4rem] laptop:font-bold text-[#565468] mobile:text-[2.5rem] mobile:leading-[2.5rem] font-bold '>12</h1>
+                <h1 id='score'className='font-barlow laptop:text-[4rem] laptop:leading-[4rem] laptop:font-bold text-[#565468] mobile:text-[2.5rem] mobile:leading-[2.5rem] font-bold '>0</h1>
             </div>
         </div>
     </div>
