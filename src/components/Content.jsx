@@ -10,7 +10,22 @@ import Rock from '../../images/icon-rock.svg'
 
 
 const Content = () => {
+  const [current,setCurrent] = useState('');
+  const [key,setKey] = useState(null);
+  const [randomNumber,setRandomNumber] = useState(null);
+  const [computerOption, setComputerOption] = useState('');
+  const btns = ['paper', 'rock', 'scissors'];
+
+  const generateComputerOption = () => {
+    setRandomNumber(Math.floor(Math.random() *3));
+    setComputerOption(btns[randomNumber]);
+  };
   
+  const handleClick = (userOption, key) => {
+    setKey(key)
+    setCurrent(userOption)
+    generateComputerOption()
+  }
   // const buttons = document.getElementsByTagName("button");
   // const scoreEl = document.getElementById('score');
   // const choices = [ 'paper', 'rock','scissors'];
